@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "sayHello",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "newString",
+						"type": "string"
+					}
+				],
+				"name": "setHelloWorld",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test/tes02.sol": "HelloWorld02"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"test/tes02.sol": {
+			"keccak256": "0xd8ac705bf0d34738032c9cb8e8263c4cdbc3746eeb1dca7fac41d7c95536d356",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7cce83fc6baf38acf14cefee54d8d6858047b47586fb7222b92b86e79054bf7f",
+				"dweb:/ipfs/QmdECzqBYS9eCjwjHPT1HjnfwZcg1mbo7WzTdpapdJUM6W"
+			]
+		}
+	},
+	"version": 1
+}
